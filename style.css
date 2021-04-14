@@ -303,7 +303,7 @@ main {
     height: auto;
     margin: 0 auto;
     margin-top: 50px;
-    text-align: center;
+    text-align: left;
 }
 
 .product-detail--title h2 {
@@ -314,10 +314,79 @@ main {
     color: var(--just-with);
 }
 
-.product-detail--title p {
+.product-detail--title {
     margin-bottom: 20px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
     color: #808080;
+}
+
+.product-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black) ;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 16);
+}
+
+.product-detail--card .clock {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/clock1.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-card-title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-with);
+}
+
+.product-card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.product-detail--card .eye {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/eye1.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card .dollar-sign {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/dollar-sign1.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card .check.circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/check-circle1.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
