@@ -496,3 +496,24 @@ main {
     font-size: 1.2rem;
     color: var(--black);
 }
+
+.plan-card--ca {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: #FAF8F7;
+    border: 4px solid var(--bitcoin-orange);
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.plan-card--ca span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/icons/arrow-right1.svg');
+    vertical-align: text-bottom;
+}
